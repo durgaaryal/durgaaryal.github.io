@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Durga Aryal</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -28,10 +28,10 @@
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
                 <a href="#education">Education</a>
+            </li>
+	    <li>
+                <a href="#experience">Experience</a>
             </li>
             <li>
                 <a href="#projects">Projects</a>
@@ -78,7 +78,7 @@
 				Passionate and self-motivated electrical engineer with two years of experience using machine learning and data science concepts for analyzing risks and uncertainties in power systems. 
 				</li>
   				<li>
-			       Extensively used Matlab, R, SQL, Python packages (Numpy, Scikit learn, Pandas and Seaborne) and Power Systems Tools (OpenDSS, PSS/E, Power World) while working as a research assistant at EDD and as a summer intern as ERCOT.
+			       Extensively used Matlab, R, SQL, Python packages (Numpy, Pandas, Scikitlearn, Seaborn, Matplotlib, Keras and Tensorflow) and Power Systems Tools (OpenDSS, PSS/E, Power World) while working as a research assistant at EDD and as a summer intern as ERCOT.
 				</li>
 			  </ul>
                     </p>
@@ -88,103 +88,122 @@
     </div>
     <!-- End #about -->
 
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>M.S., Electrical Engineering</h3>
+		<span class="education-date">Aug 2017 - Dec 2018</span>
+            <h4><b>Virginia Tech</b>
+		<br>
+		Blacksburg, VA, USA.
+		<br>
+		<b>Thesis</b>: Analysis and Planning of Power Transmission System Subject to Uncertainties in the Grid.
+	     </h4>        
+	</div>
+        <!-- End .education-block -->
+	<div class="education-block">
+        <h3>B.S., Electrical Engineering</h3>
+		<span class="education-date">Nov 2011 - Nov 2015</span>
+            <h4><b>Tribhuvan University</b>
+		<br>
+		Pulchowk Campus, Nepal.
+		<br>
+		<b>Capstone Project</b>: Hardware implementation of bi-directional operating DC drive with speed control.	     </h4>
+        </div>
+        <!-- End .education-block -->
+
+    </div>
+    <!-- End #education -->
+
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+            <div data-date="May 2017 – Dec 2018">
+                <h3>Electrical Distribution Design (EDD)</h3>
+                <h4>Research Assistant</h4>
+                <p style="color:#777777">
+                - Used PSS/E with Python for studying transient and steady-state stability studies of power systems subject to utility-scale integration of renewable sources (wind and solar) in the grid.
+                <br>
+<!--                - Used Python packages (Numpy, SciPy, StatsModel and Scikitlearn) to forecast electricity demand in a city.-->
+                - Performed time series analysis (ARIMA) on electric circuits to analyze the stability of circuits. Used SQL queries to access data from Microsoft Access database.
+                <br>
+                - Trained artificial neural network (using Keras and Tensorflow in Python) and forecasted the photovoltaic/solar power generation.
                 </p>
             </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+            
+            <div data-date="May 2018 – Aug 2018">
+                <h3>Electric Reliability Council of Texas (ERCOT)</h3>
+                <h4>Transmission Planning Engineering Intern</h4>
+                <p style="color:#777777">
+                    - Implemented k-means clustering in Matlab and developed a sampling tool for facilitating probabilistic transmission planning. Used UPLAN production-cost simulation for generating the data (wind, solar and load profiles). <!The tool accounts for uncertainties in renewable sources, load and weather, and effectively samples credible scenarios that can be used to study a variety of conditions that stress the transmission system.>
+                <br>
+                    - Used the developed sampling tool for performing reliability analysis. Reduced the risk metric (namely expected unserved energy (EUE)) by approximately 20%.
                 </p>
             </div>
         </div>
     </div>
     <!-- End #experience -->
 
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        <h3> Iris Recognition Using Deep Learning</h3>
+                        <p style="color:#777777">
+                            Trained a deep learning neural network for implementing human iris-based biometric identification. Used Python packages Pandas for data analysis, Scikitlearn for data pre-processing and Tensorflow/Keras for training the model. Achieved a classification accuracy of approx. 93%.
                         </p>
-                        <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
 
                 <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        <h3> PV Power Forecast</h3>
+                        <p style="color:#777777">
+                        Implemented RNN-based LSTM network in Python to perform multi-variate time-series analysis for forecasting the output power of a PV source. Compared its performance with that of support vector regression.
                         </p>
-                        <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+                
+                <div class="project shadow-large">
+                    <div class="project-info">
+                        <h3> Time Series Analysis for Demand Forecasting in Smart Grids </h3>
+                        <p style="color:#777777">
+                        Implemented ARIMA time-series model to forecast the hourly electricity demand of a small town. Analyzed the trend and seasonality present in the dataset. Used Python packages Pandas, Scikitlearn, Statsmodel and Matplotlib for data analysis, processing and visualization.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                
+                <div class="project shadow-large">
+                    <div class="project-info">
+                        <h3> Predicting the Price of Used Cars </h3>
+                        <p style="color:#777777">
+                        Based on 25 features that include categorical as well as numerical variables, implemented statistical regression, feature reduction (using PCA) and SVM regression in Python to predict the value of used cars. Used mean squared error to evaluate the model accuracy.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                
+                <div class="project shadow-large">
+                    <div class="project-info">
+                        <h3> Diabetes Prediction Using ANN </h3>
+                        <p style="color:#777777">
+                        Trained an ANN that classifies diabetic and non-diabetic patients. Used 14 behavorial features as input to the model. Used Python packages for data slicing and data mining. Achieved a classification accuracy of 95%.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                
             </div>
         </div>
     </div>
@@ -193,48 +212,36 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>Matlab</li>
+            <li>R</li>
+            <li>SQL</li>
+            <li>Hive</li>
+            <li>Pig</li>
+            <li>Hadoop</li>
+            <li>Keras</li>
+            <li>Tensorflow</li>
+            <li>HTML</li>
+            <li>PSS/E</li>
+            <li>Power World</li>
+            <li>DEW</li>
+            <li>OpenDSS</li>
         </ul>
     </div>
     <!-- End #skills -->
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
+<!--    <div id="contact">-->
+<!--        <h2>Get in Touch</h2>-->
+<!--        <div id="contact-form">-->
+<!--            <form method="POST" action="https://formspree.io/email@email.com">-->
+<!--                <input type="hidden" name="_subject" value="Contact request from personal website" />-->
+<!--                <input type="email" name="_replyto" placeholder="Your email" required>-->
+<!--                <textarea name="message" placeholder="Your message" required></textarea>-->
+<!--                <button type="submit">Send</button>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--        <!-- End #contact-form -->-->
+<!--    </div>-->
     <!-- End #contact -->
 
     <footer>
@@ -242,7 +249,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 YOUR NAME
+                        Copyright &copy; 2019 Durga Aryal
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -253,22 +260,10 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/" target="https://durgaaryal.github.io"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/durga-aryal-b6b680155" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
