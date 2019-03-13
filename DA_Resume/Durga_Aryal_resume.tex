@@ -1,0 +1,194 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item[--]\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Durga Aryal}} & \textbf{Email:} {daryal@vt.edu},
+   \textbf{mobile:} (540)449-8323 \\
+ (Authorized to work in the U.S. without visa sponsorship) & website: \url{http://durgaaryal.github.io}\\
+\end{tabular*}
+
+\vspace{-5pt}
+
+\section{Summary}
+\begin{itemize}
+\item
+Passionate electrical engineer with two years of experience in using data engineering in power systems. 
+\vspace{-7pt}
+\item 
+Proficient in using Matlab and Python data science packages including Pandas, Numpy, Scipy, Statsmodels, Scikitlearn, Seaborn, Matplotlib, Keras and Tensorflow for solving challenging real-world problems.
+\vspace{-7pt}
+\item
+Other skills/tools: R, SQL, MS Excel, Hadoop, Hive, Pig, Git, PSS/E, Power World, DEW, OpenDSS. 
+\end{itemize}
+
+\vspace{-18pt}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Virginia Tech}{Blacksburg, VA.}
+      {Master of Science in Electrical Engineering;  GPA: 3.67/4.00}{Aug. 2017 -- Dec. 2018}
+    \resumeSubheading
+      {Tribhuvan University}{Nepal.}
+      {Bachelor in Electrical Engineering;  GPA: 3.96/4.00}{Nov. 2011 - Nov. 2015}
+  \resumeSubHeadingListEnd
+			
+			%\item Use MySQL to import data from Microsoft Access database to perform time series analysis using power systems software Distribution Engineering Workstation (DEW).
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Electrical Distribution Design (EDD)}{Blacksburg, VA}
+      {Research Assistant}{May 2017 - Feb 2019}
+      \resumeItemListStart
+        \resumeItem{}
+          {Used PSS\//E with Python for studying transient and steady-state stability studies of power systems subject to utility-scale integration of renewable sources (wind and solar) in the grid.}
+        \resumeItem{}
+        {Performed quasi-static time series analysis on electric transmission and distribution systems using Python and Distribution Engineering Workstation (DEW). Used SQL queries to access the database. }          
+        %\resumeItem{} 
+        %Trained an LSTM recurrent neural network (RNN) using Keras and Tensorflow in Python and forecasted the photovoltaic/solar power generation.    
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Electric Reliability Council of Texas (ERCOT)}{Taylor, TX}
+      {Transmission Planning Engineering Intern}{May 2018 - Aug 2018}
+      \resumeItemListStart
+        \resumeItem{}
+          {Implemented k-means clustering in Matlab and developed a sampling tool for facilitating probabilistic transmission planning. Used UPLAN production-cost simulation for generating the data (wind, solar and load profiles). }	
+		\resumeItem{} 
+		{Used the developed sampling tool for performing reliability and economic analysis. Reduced the risk metric, namely expected unserved energy (EUE), by approximately 20\%.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Skills}
+\resumeSubHeadingListStart
+    \resumeSubItem{Computer skills:}
+    {Python, Matlab, R, MS Excel, SQL, Hadoop, Hive, Pig.}
+    \resumeSubItem{Data packages:}
+    {Pandas, Numpy, Statstools, Scipy, Scikit-learn, Seaborn, Matplotlib, Keras, Tensorflow.}
+	\resumeSubItem{Power System tools:} {PSS/E, Power World, OpenDSS, DEW.}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{PV power forecast:}
+	{Implemented RNN-based LSTM network in Python to perform multi-variate time-series analysis for forecasting the output power of a PV source. Compared its performance with that of support vector regression.}
+	
+	\resumeSubItem{Iris recognition using Deep Learning:}
+	{Trained a deep learning neural network for implementing human iris-based biometric identification. Used Python packages Pandas for data analysis, Scikitlearn for data pre-processing and Tensorflow/Keras for training the model. Achieved a classification accuracy of approx. 93\%.}	
+	
+	\resumeSubItem{Diabetes Prediction Using ANN:}	
+	{Trained an ANN that classifies diabetic and non-diabetic patients. Used 14 behavorial features as input to the model. Used Python packages for data slicing and data mining. Achieved a classification accuracy of 95\%.}
+	
+	\resumeSubItem{Time Series Analysis for Demand Forecasting in Smart Grids:}
+	{Implemented ARIMA time-series model to forecast the hourly electricity demand of a small town. Analyzed the trend and seasonality present in the dataset. Used Python packages Pandas, Scikitlearn, Statsmodel and Matplotlib for data analysis, processing and visualization.}
+	
+	%{Leveraged machine learning and history of energy consumption data to predict consumers' energy demand, which serves as a basis for demand side management in smart grids.}
+	
+	\resumeSubItem{Predicting the Price of Used Cars:}
+	%RANDOM FOREST
+	{Based on 25 features that include categorical as well as numerical variables, implemented statistical regression, feature reduction (using PCA) and SVM regression in Python to predict the value of used cars. Used mean squared error to evaluate the model accuracy.}
+	
+	\resumeSubItem{Distribution System Resiliency:}
+	{Used spanning tree for maximum load restoration after disturbances in distribution systems. Investigated algorithms for finding optimal topology for the network after a fault has been detected.}
+  \resumeSubHeadingListEnd
+
+\section{Publications}
+	\resumeSubHeadingListStart
+	\resumeSubItem{}
+	{S.W.  Kang, E. Meier, N. Kandel and \textbf{D. Aryal}, ``A New Approach of Probabilistic Transmission Planning for Composite Power Systems -- ERCOT", manuscript under preparation.}
+	
+\resumeSubItem{}
+	{Bilal A. Bhatti, R. Broadwater, M. Dilek, and \textbf{D. Aryal} ``An Index for Determination and Manipulation of Voltage Stability for Integrated Transmission and Distribution Infrastructures", submitted to \emph{EPSR, 2019}.}
+	\resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
